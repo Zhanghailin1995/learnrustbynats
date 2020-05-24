@@ -6,8 +6,8 @@ use crate::sublist::TrieSubList;
 use jemallocator::Jemalloc;
 use std::error::Error;
 
-#[global_allocator]
-static GLOBAL: Jemalloc = Jemalloc;
+/*#[global_allocator]
+static GLOBAL: Jemalloc = Jemalloc;*/
 
 mod client;
 mod error;
